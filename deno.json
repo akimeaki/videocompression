@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"types": ["npm:@types/node"]
+	},
+	"nodeModulesDir": "none",
+	"tasks": {
+		"dev": "deno run --allow-read --allow-run ./src/main.ts",
+		"format": "npm run format",
+		"lint": "deno lint",
+		"build": "deno compile --output ./dista/video-compression --allow-read --allow-run ./src/main.ts"
+	},
+	"lock": false
+}

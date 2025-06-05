@@ -1,0 +1,13 @@
+/node_modules/
+*.ico
+*.txt
+*.png
+*.svg
+*.ttf
+*.mp4
+*.glb
+*.gif
+*.webp
+.editorconfig
+/modules/
+.npmrc

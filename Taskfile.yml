@@ -1,0 +1,8 @@
+version: "3"
+
+tasks:
+  deno:
+    desc: "Denoバージョン設定"
+    cmds:
+      - deno upgrade --version=2.3.5
+      - deno --version

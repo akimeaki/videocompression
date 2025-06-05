@@ -1,0 +1,19 @@
+{
+	"name": "video-compression",
+	"type": "module",
+	"version": "1.0.0",
+	"engines": {
+		"node": "20.15.0"
+	},
+	"volta": {
+		"node": "20.15.0"
+	},
+	"scripts": {
+		"format": "prettier --write './**/*'"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"prettier": "3.4.2",
+		"prettier-plugin-sh": "0.14.0"
+	}
+}
