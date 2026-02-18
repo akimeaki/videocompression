@@ -19,7 +19,7 @@ async function convertVideo(filePath: string) {
 			"-map",
 			"0:v:0",
 			"-map",
-			"0:a:0?",
+			"0:a?",
 			"-map_metadata",
 			"-1",
 			"-threads",
